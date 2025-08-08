@@ -1,0 +1,42 @@
+﻿{% extends "views/main.html" %}
+
+{% block page_body %}
+  <div class="container mx-auto flex lg:items-center lg:flex-row flex-col text-gray-800 dark:text-gray-300 py-25 px-4">
+
+    <div class="grid gap-8 grid-cols-1 md:grid-cols-2">
+      {% for p in projects %}
+      <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 cursor-default">
+        <div class="p-6 flex flex-col h-full">
+          <div class="mb-4">
+            <a
+              {% if p.link %} href="{{ p.link }}" target="_blank" {% endif %}
+              class="text-2xl font-bold text-gray-900 dark:text-white {% if p.link %} hover:underline {% endif %}">
+              {{ p.name }}
+            </a>
+          </div>
+
+          {% if p.description %}
+          <ul class="text-gray-700 dark:text-gray-300 text-base flex-grow list-disc list-inside space-y-1">
+            {% for bullet in p.description %}
+            <li>{{ bullet }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+
+          <div class="mt-4 flex items-center text-sm text-gray-600 dark:text-gray-400">
+            {% include "icons/time.svg" %}
+            <span class="ml-2">{{ p.time }}</span>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+{% endblock %}
+
+{% block page_scripts %}
+<script src="{{ url_for('static', filename='js/theme.js') }}"></script>
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://unpkg.com/tippy.js@6"></script>
+<script src="{{ url_for('static', filename='js/tooltips.js') }}"></script>
+{% endblock %}
