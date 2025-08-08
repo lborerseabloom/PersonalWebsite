@@ -15,8 +15,8 @@ me = {
 # Metadata
 main_metadata = {
     "locale": "US",
-    "author": "Personal Website",
-    "title": "Liam Borer Seabloom",
+    "author": "Liam Borer Seabloom",
+    "title": "Personal Website",
     "desc": "Personal website to catalog my relevant work experience.",
     "image": "https://media.discordapp.net/attachments/712969229506183198/831109920103465000/img_caching.png",
     "favicon": "https://images-ext-2.discordapp.net/external/5Hi7Y5E0rvFTKpKPeGg6Uc1p1-itFQPf4AwEsjzcUqo/https/i.imgur.com/tGibRPY.png",
