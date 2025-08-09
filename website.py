@@ -50,7 +50,7 @@ def index():
         },
     )
 
-@app.route("/projects")
+@app.route("/projects.html")
 def projects():
     return render_template(
         "projects.html",
