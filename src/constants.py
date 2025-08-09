@@ -22,8 +22,8 @@ main_metadata = {
     "author": "Liam Borer Seabloom",
     "title": "Personal Website",
     "desc": "Personal website to catalog my relevant work experience.",
-    "image": "/static/assets/avatar.jpg",
-    "favicon": "/static/assets/avatar.jpg",
+    "image": "https://cdn.discordapp.com/attachments/1004204236130762903/1403850590693621761/avatar.jpg?ex=68990d3f&is=6897bbbf&hm=56f4aaf4218824c2333c6a05202fc7b5bcd21977402baad26d168a6692b69bb5&",
+    "favicon": "https://cdn.discordapp.com/attachments/1004204236130762903/1403850590693621761/avatar.jpg?ex=68990d3f&is=6897bbbf&hm=56f4aaf4218824c2333c6a05202fc7b5bcd21977402baad26d168a6692b69bb5&",
 }
 
 # Social Metadata
