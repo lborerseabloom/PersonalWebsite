@@ -14,29 +14,30 @@
     <!-- Color: {% block page_color %}#e5e7eb{% endblock %} -->
     
     <!-- Primary Meta Tags -->
-    <title> {{ self.page_title() }} - {{ self.page_author() }} </title>
-    <meta name="title" content="{{ self.page_title() }}" />
-    <meta name="author" content="{{ self.page_author() }}" />
-    <meta name="description" content="{{ self.page_desc() }}"/>
-    <meta name="theme-color" content="{{ self.page_color() }}" />
+    <title>{{ main_metadata.title }} - {{ main_metadata.author }}</title>
+    <meta name="title" content="{{ main_metadata.title }}" />
+    <meta name="author" content="{{ main_metadata.author }}" />
+    <meta name="description" content="{{ main_metadata.desc }}" />
+    <meta name="theme-color" content="#e5e7eb" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="{{ self.page_author() }}" />
-    <meta property="og:title" content="{{ self.page_title() }}"/>
-    <meta property="og:description" content="{{ self.page_desc() }}" />
-    <meta property="og:locale" content="{{ self.page_locale() }}" />
-    <meta property="og:image" content="{{ self.page_image() }}" />
+    <meta property="og:site_name" content="{{ main_metadata.author }}" />
+    <meta property="og:title" content="{{ main_metadata.title }}" />
+    <meta property="og:description" content="{{ main_metadata.desc }}" />
+    <meta property="og:locale" content="{{ main_metadata.locale }}" />
+    <meta property="og:image" content="{{ main_metadata.image }}" />
 
-    <!-- Twitter -->
+    <!--Twitter-->
     <meta property="twitter:card" content="summary" />
-    <meta property="twitter:author" content="{{ self.page_author() }}" />
-    <meta property="twitter:title" content="{{ self.page_title() }}" />
-    <meta property="twitter:description" content="{{ self.page_desc() }}" />
-    <meta name="twitter:image:src" content="{{ self.page_image() }}"/>
-    
-    <!-- Favicon -->
-    <link rel="icon" href="{{ main_metadata('favicon') }}" type="image/x-icon" />
+    <meta property="twitter:author" content="{{ main_metadata.author }}" />
+    <meta property="twitter:title" content="{{ main_metadata.title }}" />
+    <meta property="twitter:description" content="{{ main_metadata.desc }}" />
+    <meta name="twitter:image:src" content="{{ main_metadata.image }}" />
+
+    <!--Favicon-->
+    <link rel="icon" href="{{ main_metadata.favicon }}" type="image/x-icon" />
+
 
     {% block page_css %} {% endblock %}
   </head>
