@@ -9,7 +9,7 @@ me = {
     "location": "Iowa, United States",
     "school": "Cornell College",
     "short_bio" : "Senior Data Science and Finace major at Cornell College, passionate about data analysis and financial markets.",
-    "bio": "Example bio: Liam Borer Seabloom is a senior at Cornell College, majoring in Data Science and Finance. He has a keen interest in data analysis and financial markets, and is actively involved in various projects that combine these fields. Liam is known for his analytical skills and his ability to derive insights from complex datasets. In his free time, he enjoys exploring new technologies and staying updated with the latest trends in data science and finance.",
+    "bio": "test bio",
 }
 
 # Metadata
