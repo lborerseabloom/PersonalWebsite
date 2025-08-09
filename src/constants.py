@@ -8,8 +8,13 @@ me = {
     "email": "lborerseabloom26@cornellcollege.edu",
     "location": "Iowa, United States",
     "school": "Cornell College",
-    "short_bio" : "Senior Data Science and Finace major at Cornell College, passionate about data analysis and financial markets.",
-    "bio": "test bio",
+    "short_bio" : "Senior Data Science and Finace major at Cornell College, passionate about using data to solve real world problems.",
+    "bio": ["I’m a Data Science and Finance major at Cornell College (Class of 2026), with a minor in Computer Science and a passion for using data to drive positive change in communities. My academic work and professional experiences have focused on data cleaning, analysis, and visualization—particularly in projects related to housing equity, community development, and environmental science.",
+        "I’ve worked as a Data Analytics Consultant at the University of Minnesota, supporting a global network of scientists by modeling and cleaning complex datasets in R and SQL. My projects have ranged from building an interactive Shiny app to calculate solar panel runoff, to developing predictive models for national analytics competitions, to analyzing socioeconomic and demographic disparities in housing access for nonprofit organizations.",
+        "Technically, I’m skilled in R (tidyverse, statistical modeling, machine learning, Shiny), Python (pandas, Matplotlib, APIs), SQL, and Excel. I enjoy working with large, complex datasets—whether that’s biological data from global research networks or socioeconomic data that can inform policy and equity initiatives.",
+        "Beyond my technical skills, I’m committed to diversity, inclusion, and leadership, shaped by hundreds of hours of volunteer work, mentorship, and team-based projects in diverse environments, including the U.S. Marine Corps Officer Candidate School program.",
+        "Whether I’m cleaning a messy dataset, visualizing complex findings, or collaborating with others to tackle challenging problems, my goal is always the same: to turn data into actionable insights that make a difference.",
+    ],
 }
 
 # Metadata
