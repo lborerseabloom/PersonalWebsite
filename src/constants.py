@@ -78,11 +78,18 @@ education = [
 
 # Main page - Technologies
 technologies = [
-    {"name": "R (Advanced): Tidyverse, Quarto, Statistical Modeling, Machine Learning", "color": "blue-400", "size": "full"},
-    {"name": "Python (Intermediate): pandas, Matplotlib, Data Automation, Website/App Creation", "color": "blue-700", "size": "full"},
-    {"name": "SQL (Intermediate): MySQL, Joins, CTEs", "color": "gray-700", "size": "full"},
-    {"name": "Excel (Intermediate): Pivot Tables and Macros", "color": "green-600", "size": "full"},
-]
+    {"name": "R (Advanced): Data cleaning, modeling, and visualization with Tidyverse; website development with Quarto; mixed-effects modeling with lme4", "color": "blue-400", "size": "full"},
+    {"name": "Python (Intermediate): Data analysis with pandas; visualization with Matplotlib; web apps with Flask & Streamlit; Various API integrations", "color": "blue-700", "size": "5/6"},
+    {"name": "Statistical & Machine Learning (Intermediate): Frequentist modeling, supervised & unsupervised learning, time series forecasting", "color": "green-600", "size": "2/3"},
+    {"name": "SQL (Intermediate): MySQL, joins, CTEs", "color": "gray-700", "size": "1/2"},
+    {"name": "Excel (Intermediate): Pivot Tables and Macros", "color": "green-600", "size": "1/3"},
+    {"name": "HTML (Basic)", "color": "green-600", "size": "1/7"},
+    {"name": "CSS (Basic)", "color": "green-600", "size": "1/7"},
+    {"name": "JavaScript (Basic)", "color": "green-600", "size": "1/7"},
+    {"name": "Spanish (Basic)", "color": "green-600", "size": "1/7"},
+    {"name": "SPSS (Basic)", "color": "green-600", "size": "1/7"},
+    {"name": "Git/Github (Basic)", "color": "green-600", "size": "1/7"},
+    ]
 
 # Projects - projects
 projects = [
@@ -101,7 +108,7 @@ projects = [
         "description": [
             "Competed in a national data analytics competition with a team of 4 against 34 other universities",
             "Built a predictive model on child retention in the Big Brothers Big Sisters program acheiving the 3rd best RMSE",
-            "Placed 2nd overall; being judged on accuracy, insights, and team collaboration.",
+            "Placed 2nd overall; being judged on accuracy, creativity, actionable insights, and team collaboration.",
         ],
         "time": "Febuary 2025 > April 2025",
         "link": "https://www.youtube.com/watch?v=7KuJB4193no",
