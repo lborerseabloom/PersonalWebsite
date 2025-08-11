@@ -10,9 +10,9 @@ me = {
     "school": "Cornell College",
     "short_bio" : "Senior Data Science and Finace major at Cornell College, passionate about using data to solve real world problems.",
     "bio": ["I’m a Data Science and Finance major at Cornell College (Class of 2026), with a minor in Computer Science and a passion for using data to drive positive change in communities. My academic work and professional experiences have focused on data cleaning, analysis, and visualization through a variety of projects and team enviroments.",
-        "I’ve worked as a Data Analytics Consultant at the University of Minnesota, supporting a global network of scientists by modeling and cleaning complex datasets in R and SQL. The projects I have worked on have ranged from building an interactive Shiny app to calculate solar panel runoff, to developing predictive models for national analytics competitions, to analyzing socioeconomic and demographic disparities in housing access for nonprofit organizations.",
-        "Technically, I’m skilled in R (tidyverse, statistical modeling, machine learning, Shiny), Python (pandas, Matplotlib, APIs), SQL, and Excel. I enjoy working with large, complex datasets of all kinds. Beyond my technical skills, I’m committed to diversity, inclusion, and leadership, shaped by hundreds of hours of volunteer work, mentorship, and team-based projects in diverse environments",
-        "No matter what I am working on my goal has always been the same: to turn data into actionable insights that make a real difference in the world.",
+        "I’ve worked as a Data Analytics Consultant at the University of Minnesota, supporting a global network of scientists by modeling and cleaning complex datasets in R and SQL and building an interactive Shiny app to calculate solar panel runoff. I have also worked on various other projects such as Using LLMs to break down finacial reports into data to be used for modeling, developing predictive models for national analytics competitions, to analyzing socioeconomic and demographic disparities in housing access for nonprofit organizations.",
+        "My technical skills include R (Data cleaning, modeling, and visualization with Tidyverse; website development with Quarto; mixed-effects modeling with lme4) and Python (Data analysis with pandas; visualization with Matplotlib; web apps with Flask & Streamlit; Various API integrations), as well as a variety of other tools and technologies. I enjoy working with large, complex datasets of all kinds. Beyond my technical skills, I’m committed to diversity, inclusion, and leadership, shaped by hundreds of hours of volunteer work, mentorship, and team-based projects in diverse environments",
+        "No matter what my goal has always been the same: to turn data into actionable insights that can make a real difference in the world.",
     ],
 }
 
@@ -49,7 +49,7 @@ experiences = [
     {
         "name": "Cornell College - Summer Research Institute",
         "position": "Summer Researcher",
-        "link": None,
+        "link": "https://www.cornellcollege.edu/research/index.shtml",
         "time": "May 2025 > July 2025",
     },
     {
@@ -61,7 +61,7 @@ experiences = [
     {
         "name": "Social Services Housing Project",
         "position": "Student Consultant",
-        "link": None,
+        "link": "https://www.waypointservices.org/",
         "time": "August 2023 > September 2023",
     },
 ]
@@ -88,7 +88,7 @@ technologies = [
     {"name": "JavaScript (Basic)", "color": "yellow-600", "size": "1/7"},
     {"name": "Spanish (Basic)", "color": "green-400", "size": "1/7"},
     {"name": "SPSS (Basic)", "color": "gray-400", "size": "1/7"},
-    {"name": "Git/Github (Basic)", "color": "gray-700", "size": "1/7"}\
+    {"name": "Git/Github (Basic)", "color": "black-", "size": "1/7"}\
     ]
 
 # Projects - projects
@@ -118,7 +118,7 @@ projects = [
         "description": [
             "Analyzed and visualized time series data from the National Oceanic and Atmospheric Administration (NOAA) as well as other sources",
             "Created a 'Scrollytelling' web app using R Shiny to present findings",
-            "Used ggplot2 for data visualization and Tidyverse for data manipulation",
+            "Used ggplot2 for data visualization and other Tidyverse packages for data manipulation",
         ],
         "time": "January 2024",
         "link": "https://stats-tgeorge.github.io/STA364_TSApps/project/student_examples/Liam%20Borer.html",
@@ -127,7 +127,7 @@ projects = [
         "name": "Soil Science Calculator",
         "description": [
             "Translated complex solar panel runoff model from Excel to R",
-            "Built a Shiny app in R to eventually be hosted as a U of M website (z.umn.edu/pv-smart)"
+            "Built a Shiny app in R; planned to eventually be hosted as an active University of Minnesota website"
         ],
         "time": "May 2024",
         "link": "https://erellima.shinyapps.io/SoilCalc/",
