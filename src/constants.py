@@ -80,15 +80,16 @@ education = [
 technologies = [
     {"name": "R (Advanced): Data cleaning, modeling, and visualization with Tidyverse; website development with Quarto; mixed-effects modeling with lme4", "color": "blue-400", "size": "full"},
     {"name": "Python (Intermediate): Data analysis with pandas; visualization with Matplotlib; web apps with Flask & Streamlit; Various API integrations", "color": "blue-700", "size": "5/6"},
-    {"name": "Statistical & Machine Learning (Intermediate): Frequentist modeling, supervised & unsupervised learning, time series forecasting", "color": "green-600", "size": "2/3"},
-    {"name": "SQL (Intermediate): MySQL, joins, CTEs", "color": "gray-700", "size": "1/2"},
+    {"name": "Statistical & Machine Learning (Intermediate): Frequentist modeling, supervised & unsupervised learning, time series forecasting", "color": "gray-700", "size": "2/3"},
+    {"name": "SQL (Intermediate): MySQL, joins, CTEs", "color": "gray-600", "size": "1/2"},
     {"name": "Excel (Intermediate): Pivot Tables and Macros", "color": "green-600", "size": "1/3"},
-    {"name": "HTML (Basic)", "color": "green-600", "size": "1/7"},
-    {"name": "CSS (Basic)", "color": "green-600", "size": "1/7"},
-    {"name": "JavaScript (Basic)", "color": "green-600", "size": "1/7"},
-    {"name": "Spanish (Basic)", "color": "green-600", "size": "1/7"},
-    {"name": "SPSS (Basic)", "color": "green-600", "size": "1/7"},
-    {"name": "Git/Github (Basic)", "color": "green-600", "size": "1/7"},
+    {"name": "HTML (Basic)", "color": "blue-300", "size": "1/7"},
+    {"name": "CSS (Basic)", "color": "blue-300", "size": "1/7"},
+    {"name": "JavaScript (Basic)", "color": "blue-300", "size": "1/7"},
+    {"name": "Spanish (Basic)", "color": "blue-200", "size": "1/7"},
+    {"name": "SPSS (Basic)", "color": "blue-200", "size": "1/7"},
+    {"name": "Git/Github (Basic)", "color": "blue-300", "size": "1/7"}
+
     ]
 
 # Projects - projects
