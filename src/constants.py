@@ -83,13 +83,12 @@ technologies = [
     {"name": "Statistical & Machine Learning (Intermediate): Frequentist modeling, supervised & unsupervised learning, time series forecasting", "color": "gray-700", "size": "2/3"},
     {"name": "SQL (Intermediate): MySQL, joins, CTEs", "color": "gray-600", "size": "1/2"},
     {"name": "Excel (Intermediate): Pivot Tables and Macros", "color": "green-600", "size": "1/3"},
-    {"name": "HTML (Basic)", "color": "blue-300", "size": "1/7"},
-    {"name": "CSS (Basic)", "color": "blue-300", "size": "1/7"},
-    {"name": "JavaScript (Basic)", "color": "blue-300", "size": "1/7"},
-    {"name": "Spanish (Basic)", "color": "blue-200", "size": "1/7"},
-    {"name": "SPSS (Basic)", "color": "blue-200", "size": "1/7"},
-    {"name": "Git/Github (Basic)", "color": "blue-300", "size": "1/7"}
-
+    {"name": "HTML5 (Basic)", "color": "red-700", "size": "1/7"},
+    {"name": "CSS (Basic)", "color": "purple-600", "size": "1/7"},
+    {"name": "JavaScript (Basic)", "color": "yellow-600", "size": "1/7"},
+    {"name": "Spanish (Basic)", "color": "green-400", "size": "1/7"},
+    {"name": "SPSS (Basic)", "color": "gray-400", "size": "1/7"},
+    {"name": "Git/Github (Basic)", "color": "gray-700", "size": "1/7"}\
     ]
 
 # Projects - projects
