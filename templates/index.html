@@ -17,27 +17,28 @@
 
       <script>
         async function updateSpotifyTab() {
-          try {
-            const res = await fetch('/.netlify/functions/spotify_current');
-            const data = await res.json();
+                try {
+                  const res = await fetch('/.netlify/functions/spotify_current');
+                  const data = await res.json();
 
-            if (data.playing) {
-              document.getElementById('spotify-tab').innerHTML = `
-                <div class="flex items-center space-x-2">
-                  <img src="${data.albumArt}" width="50" class="rounded shadow-md">
-                  <div>
-                    <div class="font-semibold">${data.track}</div>
-                    <div class="text-sm text-gray-600 dark:text-gray-300">${data.artists}</div>
-                  </div>
-                </div>
-              `;
-            } else {
-              document.getElementById('spotify-tab').innerText = "Not listening to anything";
-            }
-          } catch {
-            document.getElementById('spotify-tab').innerText = "Error loading track";
-          }
-        }
+                  if (data.playing) {
+                    document.getElementById('spotify-tab').innerHTML = `
+                      <div class="mb-2 font-semibold">Listening to:</div>
+                      <div class="flex items-center space-x-4">
+                        <img src="${data.albumArt}" width="50" class="rounded shadow-md">
+                        <div>
+                          <div class="font-semibold">${data.track}</div>
+                          <div class="text-sm text-gray-600 dark:text-gray-300">${data.artists}</div>
+                        </div>
+                      </div>
+                    `;
+                  } else {
+                    document.getElementById('spotify-tab').innerText = "Not listening to anything";
+                  }
+                } catch {
+                  document.getElementById('spotify-tab').innerText = "Error loading track";
+                }
+              }
 
         updateSpotifyTab();
         setInterval(updateSpotifyTab, 15000);
