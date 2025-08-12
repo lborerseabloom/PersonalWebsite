@@ -24,9 +24,9 @@
             if (data.playing) {
               document.getElementById('spotify-tab').innerHTML = `
                 <div class="mb-2 font-semibold">Listening to:</div>              
-                <div class="flex space-x-2">
+                <div class="flex items-center">
                   <img src="${data.albumArt}" width="50" class="rounded shadow-md">
-                  <div>
+                  <div class="ml-6">
                     <div class="font-semibold">${data.track}</div>
                     <div class="text-sm text-gray-600 dark:text-gray-300">${data.artists}</div>
                   </div>
