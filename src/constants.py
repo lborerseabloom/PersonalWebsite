@@ -78,16 +78,13 @@ education = [
 
 # Main page - Technologies
 technologies = [
-    {"name": "R (Advanced): Data cleaning, modeling, and visualization with Tidyverse; website development with Quarto; mixed-effects modeling with lme4", "color": "blue-400", "size": "full"},
+    {"name": "R (Advanced): Data cleaning, modeling, and visualization with Tidyverse; website development with Quarto; modeling with a variety of packages", "color": "blue-400", "size": "full"},
     {"name": "Python (Intermediate): Data analysis with pandas; visualization with Matplotlib; web apps with Netlify & Streamlit; Various API integrations", "color": "blue-700", "size": "5/6"},
     {"name": "Statistical & Machine Learning (Intermediate): Frequentist modeling, supervised & unsupervised learning, time series forecasting", "color": "gray-700", "size": "2/3"},
-    {"name": "SQL (Intermediate): MySQL, joins, CTEs", "color": "gray-600", "size": "1/2"},
+    {"name": "SQL (Intermediate): MySQL, Joins, Pivots, Relational data", "color": "gray-600", "size": "1/2"},
     {"name": "Excel (Intermediate): Pivot Tables and Macros", "color": "green-600", "size": "1/3"},
     {"name": "HTML5 (Basic)", "color": "red-700", "size": "1/7"},
-    {"name": "CSS (Basic)", "color": "purple-600", "size": "1/7"},
-    {"name": "JavaScript (Basic)", "color": "yellow-600", "size": "1/7"},
     {"name": "Spanish (Basic)", "color": "green-400", "size": "1/7"},
-    {"name": "SPSS (Basic)", "color": "gray-400", "size": "1/7"},
     {"name": "Git/Github (Basic)", "color": "black", "size": "1/7"}\
     ]
 
