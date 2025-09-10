@@ -9,11 +9,10 @@ me = {
     "location": "Iowa, United States",
     "school": "Cornell College",
     "short_bio" : "Senior Data Science and Finance major at Cornell College, passionate about using data to solve real world problems.",
-    "bio": ["I’m a Data Science and Finance major at Cornell College (Class of 2026), with a minor in Computer Science and a passion for using data to drive positive change in communities. My academic work and professional experiences have focused on data cleaning, analysis, and visualization through a variety of projects and team enviroments.",
-        "I’ve worked as a Data Analytics Consultant at the University of Minnesota, supporting a global network of scientists by modeling and cleaning complex datasets in R and SQL and building an interactive Shiny app to calculate solar panel runoff. I have also worked on various other projects such as Using LLMs to break down finacial reports into data to be used for modeling, developing predictive models for national analytics competitions, to analyzing socioeconomic and demographic disparities in housing access for nonprofit organizations.",
-        "My technical skills include R (Data cleaning, modeling, and visualization with Tidyverse; website development with Quarto; mixed-effects modeling with lme4) and Python (Data analysis with pandas; visualization with Matplotlib; web apps with Flask & Streamlit; Various API integrations), as well as a variety of other tools and technologies. I enjoy working with large, complex datasets of all kinds. Beyond my technical skills, I'm commited to hard work and helping my community, shaped by hundreds of hours of volunteer work, mentorship, and team-based projects in diverse environments",
-        "No matter what my goal has always been the same: to turn data into actionable insights that can make a real difference in the world.",
-    ],
+    "bio": ["I’m a Data Science and Finance major at Cornell College (Class of 2026), with a minor in Computer Science and a passion for using data to drive positive change in communities. My academic work and professional experiences have focused on data cleaning, analysis, visualization, and modeling through a variety of projects and team enviroments.",
+        "I have experience working as a Data Analytics Consultant at the University of Minnesota, where I supported a global network of scientists by modeling and cleaning complex datasets in R and SQL and developing an interactive Shiny app to calculate solar panel runoff. Beyond that, I’ve tackled projects ranging from leveraging LLMs to extract financial data for modeling, to building predictive models for national analytics competitions, to analyzing socioeconomic and demographic disparities in housing access for nonprofit organizations. ",
+        "Skilled in R, Python, SQL, and data visualization, I thrive on solving challenging problems with large, complex datasets and turning them into actionable insights that drive real-world impact.",
+ ],
 }
 
 # Metadata
