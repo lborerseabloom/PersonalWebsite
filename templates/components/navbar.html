@@ -1,20 +1,26 @@
 <header class="w-full text-gray-800 dark:text-gray-200 border-t-8 border-gray-700 border-opacity-20">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 
-    <div class="container mx-auto justify-items-center flex flex-wrap p-4 md:flex-row items-center justify-between">
-      
-      <div class="nav-links">
-        <a href="/" class="nav-link">Interactive Resume</a>
-        <a href="/projects" class="nav-link">Projects</a>
-      </div>
+  <div class="container mx-auto flex flex-wrap p-4 md:flex-row items-center justify-between">
 
-        <button id="themeButton" class="p-1.5 bg-gray-500 dark:bg-gray-600 bg-opacity-20 rounded-full text-gray-600 dark:text-gray-200 cursor-pointer outline-none">
-          <div class="dark:block hidden">{% include "icons/light.svg" %}</div>
-          <div class="dark:hidden block">{% include "icons/dark.svg" %}</div>
-        </button>
-
-      </nav>
-
+    <!-- Tab Navigation -->
+    <div class="nav-links flex space-x-6 border-b border-gray-300 dark:border-gray-600">
+      <a href="/" 
+         class="nav-link pb-2 px-3 text-lg font-medium border-b-2 border-transparent hover:border-gray-500 hover:text-gray-900 dark:hover:text-gray-100 transition">
+        Interactive Resume
+      </a>
+      <a href="/projects" 
+         class="nav-link pb-2 px-3 text-lg font-medium border-b-2 border-transparent hover:border-gray-500 hover:text-gray-900 dark:hover:text-gray-100 transition">
+        Projects
+      </a>
     </div>
 
+    <!-- Theme Toggle -->
+    <button id="themeButton" 
+      class="p-1.5 bg-gray-500 dark:bg-gray-600 bg-opacity-20 rounded-full text-gray-600 dark:text-gray-200 cursor-pointer outline-none">
+      <div class="dark:block hidden">{% include "icons/light.svg" %}</div>
+      <div class="dark:hidden block">{% include "icons/dark.svg" %}</div>
+    </button>
+
+  </div>
 </header>
